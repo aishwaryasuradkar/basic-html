@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,500&family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+box-sizing: border-box;
+    }
+    body{
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .container{
+        width: 900px;
+        border: 2px solid purple;
+        margin: auto;/*goes into centre automatically*/
+        background-color: burlywood;
+
+
+    }
+    #fruits{
+        float: left;
+        width: 55%;
+
+
+    }
+    #computer{
+        float: right;
+        width: 43%;
+
+    }
+    #stationary{
+        /* float: left; */
+        clear: both;
+        width: 100%;
+
+    }
+    .item{
+        border: 2px solid gray;
+        margin: 12px 3px;
+        padding: 12px 3px;
+        background-color:rgb(238, 221, 221);
+
+    }
+    p,h3{
+        /* text-align: right;
+        text-align: left;
+        text-align: center; */
+        text-align: justify;
+    }
+    h1{
+        margin: auto;
+        width: 455px;
+    }
+
+
+</style>
+
+<body>
+    <h1>Welcome to my store!</h1>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruits" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aspernatur blanditiis esse inventore optio quod, deserunt animi corporis quasi tenetur reiciendis quaerat rem tempora praesentium perferendis et non qui facere dicta impedit eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore consequatur commodi in esse magni! Repellendus ipsa ratione natus temporibus rerum aperiam, esse corrupti, dolorem sapiente quaerat, praesentium amet assumenda asperiores dignissimos nulla id repudiandae? </p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>computers</h3>
+            <p id="computers" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aspernatur blanditiis esse inventore optio quod, deserunt animi corporis quasi tenetur reiciendis quaerat rem tempora praesentium perferendis et non qui facere dicta impedit eos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, molestiae sint voluptatem ratione reprehenderit et commodi. Consequuntur veniam quod nobis dolores praesentium, atque optio rerum ratione ullam. Quasi ipsa distinctio ducimus incidunt quis laboriosam. </p>
+        </div>
+
+        <div id="stationary "class="item">
+            <h3>stationary</h3>
+            <p id="stationary" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aspernatur blanditiis esse inventore optio quod, deserunt animi corporis quasi tenetur reiciendis quaerat rem tempora praesentium perferendis et non qui facere dicta impedit eos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, molestiae sint voluptatem ratione reprehenderit et commodi. Consequuntur veniam quod nobis dolores praesentium, atque optio rerum ratione ullam. Quasi ipsa distinctio ducimus incidunt quis laboriosam. </p>
+
+            <div id="glasses "class="item">
+                <h3>glasses</h3>
+                <p id="stationary" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aspernatur blanditiis esse inventore optio quod, deserunt animi corporis quasi tenetur reiciendis quaerat rem tempora praesentium perferendis et non qui facere dicta impedit eos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, molestiae sint voluptatem ratione reprehenderit et commodi. Consequuntur veniam quod nobis dolores praesentium, atque optio rerum ratione ullam. Quasi ipsa distinctio ducimus incidunt quis laboriosam. </p>
+        </div>
+    </div>
+</body>
+
+</html>

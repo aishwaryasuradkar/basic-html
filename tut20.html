@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+    }
+    body{
+        background-color: rgb(247, 170, 239);
+    }
+ .container{
+    background-color: rgb(164, 156, 174);
+    border: 3px solid blue;
+
+
+    /* 1) padding: 79px; 
+    you can also give padding/margin left/right/bottom by specifying it padding right:20px */
+
+    /* 2) padding :23px 56px 78px 12px; padding = top right bottom left */
+
+
+    padding: 3 4px,19px;/* padding: y(top/bottom) x(left/right); */
+    margin: 14px, 19px;
+    border-radius: 23px;
+    width: 533px;
+
+
+    
+ }
+</style>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam nisi quae architecto consectetur nesciunt illo corrupti, nihil veritatis nostrum voluptatum cum, asperiores sapiente enim tenetur iste animi magni nam.</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam nisi quae architecto consectetur nesciunt illo corrupti, nihil veritatis nostrum voluptatum cum, asperiores sapiente enim tenetur iste animi magni nam.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam nisi quae architecto consectetur nesciunt illo corrupti, nihil veritatis nostrum voluptatum cum, asperiores sapiente enim tenetur iste animi magni nam.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam nisi quae architecto consectetur nesciunt illo corrupti, nihil veritatis nostrum voluptatum cum, asperiores sapiente enim tenetur iste animi magni nam.</p>
+    </div>
+</body>
+</html>
