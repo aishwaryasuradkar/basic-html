@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,47 +10,72 @@
 
     <style>
         /* CSS Reset */
-    img{
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 1400px;
-    
-    }
-    
+        /* img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 1400px;
 
-        body{
+        } */
+
+
+        /* body {
             margin: 0px;
-            padding:0px ;
+            padding: 0px;
             background: url('./bg.png');
 
-        }
-        .left{
-            border: 2px solid red;
-        }
-        .mid{
-
-        }
-        .right{
-
-        }
+        } */
     </style>
 </head>
 
 <body>
-    <img src="bg.png" alt="bg">
+    <div class="bg.png">
+        <form action="backend.php" class="container">
+
+            <label for="name"><b>Name</b></label>
+            <div>
+                <input type="text" name="name" placeholder="enter your name">
+            </div>
+            <br>
+
+            <label for="email"><b>E-mail</b></label>
+            <div>
+                <input type="text" name="email" placeholder="Enter your E-MAIL">
+            </div>
+            <br>
+
+            <label for="age"><b>Age</b></label>
+            <div>
+                <input type="number" name="age" id="age" placeholder="Enter your age">
+            </div>
+            <br>
+
+            <button onclick="submit0">Submit</button>
+
+
+
+
+
+        </form>
+    </div>
+    <!-- <img src="bg.png" alt="bg">
+
+
 
     <header class="header">
-        <!-- Left box for logo -->
-        <div class="left">
+         Left box for logo -->
+    <!-- <div class="left"> -->
 
-        </div>
-        <!-- Mid box for nav bar -->
-        <div class="mid"></div>
+    <!-- </div> -->
+    <!-- Mid box for nav bar -->
+    <!-- <div class="mid"></div> -->
+    <!-- rig box for search box-->
+    <!-- <div class="rig"></div> -->
 
-        <div class="rig"></div>
+
+    <!-- </header> -->
 
 
-    </header>
 </body>
+
 </html>
